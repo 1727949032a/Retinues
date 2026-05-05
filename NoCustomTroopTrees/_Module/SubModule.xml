@@ -1,0 +1,30 @@
+<Module>
+  <Name value="No Custom Troop Trees" />
+  <Id value="NoCustomTroopTrees" />
+  <Version value="v1.0.0" />
+  <DefaultModule value="false" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <Official value="false" />
+  <DependedModules>
+    <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.4.2" />
+    <DependedModule Id="Native" DependentVersion="v1.3.15" />
+    <DependedModule Id="SandBoxCore" DependentVersion="v1.3.15" />
+    <DependedModule Id="Sandbox" DependentVersion="v1.3.15" />
+    <DependedModule Id="Retinues" DependentVersion="v1.3.14" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="NoCustomTroopTrees" />
+      <DLLName value="NoCustomTroopTrees.dll" />
+      <SubModuleClassType value="NoCustomTroopTrees.SubModule" />
+      <Tags>
+        <Tag key="Campaign" />
+        <Tag key="CampaignSystem" />
+      </Tags>
+      <Assemblies>
+        <Assembly Path="bin/Win64_Shipping_Client/NoCustomTroopTrees.dll" />
+      </Assemblies>
+    </SubModule>
+  </SubModules>
+</Module>
